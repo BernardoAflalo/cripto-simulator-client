@@ -1,3 +1,6 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client
+/blob/main/notebook_example.ipynb)
+
 # Simulador de Trading de Cripto
 
 Objetivo é criar um robô para fazer 'trade' de cripto moedas em um ambiente 100% simulado. Características do simulador:
