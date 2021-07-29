@@ -40,6 +40,15 @@ Exemplo de robô simples, que a cada minuto checa a cotação do bitcoin, aplica
 
 ```
 import time
+def meu_modelo_linear_dummy(df):
+  if random.randint(0,1) == 1:
+    return 30
+  else:
+    return -30
+
+def tratamento_df(df):
+  return df.tail(1)
+ 
 while True:
   df = api_post('cripto_quotation', {'token': token, 'ticker': 'BTCUSDT'})
   df['datetime'] = pd.to_datetime(df['datetime'], unit='ms')
