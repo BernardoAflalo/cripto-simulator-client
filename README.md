@@ -24,8 +24,8 @@ No notebook "notebook_example.ipynb" você irá encontrar exemplos de como usar 
 
 ## Run Notebooks 
 
-Para executar **0_exemplo_APIs**, clique aqui: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/0_exemplo_APIs.ipynb)
-
+Para executar **0_exemplo_APIs**, clique aqui: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/)
+blob/main/0_exemplo_APIs.ipynb
 Para executar **1_treino_simples**, clique aqui: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/1_treino_simples.ipynb)
 
 Para executar **2_my_robot**, clique aqui: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/2_my_robot.ipynb)
