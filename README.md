@@ -1,12 +1,3 @@
-#### Run Notebooks 
-
-Para executar **0_exemplo_APIs**, clique aqui: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/0_exemplo_APIs.ipynb)
-
-Para executar **1_treino_simples**, clique aqui: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/1_treino_simples.ipynb)
-
-Para executar **2_my_robot**, clique aqui: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/2_my_robot.ipynb)
-
-
 # Simulador de Trading de Cripto
 
 Objetivo é criar um robô para fazer 'trade' de cripto moedas em um ambiente 100% simulado. Características do simulador:
@@ -17,8 +8,6 @@ Objetivo é criar um robô para fazer 'trade' de cripto moedas em um ambiente 10
 - O trabalho pode ser realizado em qualquer linguagem
 
 Para testes, usar o token = 'token_dummy_001' (conforme notebook exemplo). Para a operação 'pra valer', o professor irá passar tokens para cada grupo que devem ser utilizados para as operações.
-
-Iremos 'resetar' todo o ambiente no início da 3a aula. Portanto, fiquem à vontade para usar o token de cada grupo também para testes neste primeiro momento.
 
 Em caso de qualquer problema, favor entrar em contato!
 
@@ -32,6 +21,15 @@ No notebook "notebook_example.ipynb" você irá encontrar exemplos de como usar 
 - buy: compra cripto (quantidade de acordo com parâmetro 'quantity')
 - sell: vende cripto (quantidade de acordo com valor 'quantity')
 - history: retorna o histórico das operações de buy/sell
+
+## Run Notebooks 
+
+Para executar **0_exemplo_APIs**, clique aqui: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/0_exemplo_APIs.ipynb)
+
+Para executar **1_treino_simples**, clique aqui: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/1_treino_simples.ipynb)
+
+Para executar **2_my_robot**, clique aqui: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/2_my_robot.ipynb)
+
 
 ## Download do histórico
 
