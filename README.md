@@ -2,12 +2,18 @@
 
 Objetivo é criar um robô para fazer 'trade' de cripto moedas em um ambiente 100% simulado. Características do simulador:
 - Apenas 3 cripto disponíveis: BTCUSDT, ETHUSDT e DOGEUSDT
-- Cada grupo recebe o equivalente a USD 10k em $$ virtual
+- Cada grupo/ pessoa recebe o equivalente a USD 10k em $$ virtual
 - Não há incidência de nenhuma taxa por transação
-- Apesar de todo o ambiente ser simulado (carteira, dinheiro etc), as cotações são acessadas em tempo real utilizando a API da binance.
+- Apesar de todo o ambiente ser simulado (carteira, dinheiro etc), as cotações são reais, pois o servidor acessa uma API em tempo real
 - O trabalho pode ser realizado em qualquer linguagem
 
-Para testes, usar o token = 'token_dummy_001' (conforme notebook exemplo). Para a operação 'pra valer', o professor irá passar tokens para cada grupo que devem ser utilizados para as operações.
+Para testes, usar o token = 'token_dummy_001' (conforme notebook exemplo). Para o projeto final, o aluno deve cadastrar o próprio robô no site https://cripto-dash.herokuapp.com/ preenchendo:
+- Nome: nome do aluno, no caso de trabalho individuais ou provas substitutivas. No caso de trabalho em grupo, o nome do grupo
+- Descrição do bot (opcional)
+- Imagem do robô (opcional)
+- Escolha de onde você é (qual curso/ empresa)
+
+Na sequência, clicar em "Gerar Token" e copiar o token que aparecerá na tela! Ele será necessário para as chamadas de API.
 
 Em caso de qualquer problema, favor entrar em contato!
 
