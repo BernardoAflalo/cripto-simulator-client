@@ -48,11 +48,17 @@ Toda a parte de engenharia de features está contida no arquivo 'feature_eng.py'
 Exemplo simples de robô utilizando o 'pickle' gerado anteriormente. A lógica implementada é:
 
 1 - Confere o preço do ativo
+
 2 - Realiza a engenharia de feature
+
 3 - Filtra os valores mais recente de preço e features
+
 4 - Aplica o modelo, prevendo a probabilidade do preço subir ou cair nos próximos minutos
+
 5 - Calcula a quantidade de moedas a ser comprada/ vendida
+
 6 - Se a tendência for positiva e acima de um limite, reajusta quantidade comprada pela quantidade de $$ em conta e realiza a compra. Se for negativa, realiza a venda de maneira similar, conferindo qual a posição atual do ativo
+
 7 - Retorna o status da carteira e espera 60 segundos para a próxima iteração
 
 ### 3_api_robot.ipynb
