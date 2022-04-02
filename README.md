@@ -1,3 +1,7 @@
+# Para rodar os notebooks
+
+- 1_Treino Simples: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/1_treino_simples.ipynb)
+
 # Simulador de Trading de Cripto
 
 Objetivo é criar um robô para fazer 'trade' de cripto moedas em um ambiente 100% simulado. Características do simulador:
