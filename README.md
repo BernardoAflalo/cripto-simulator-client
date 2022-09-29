@@ -1,10 +1,10 @@
 # Para rodar os notebooks
 
-- 0_exemplo_API: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/0_exemplo_APIs.ipynb.ipynb)
+- 0_exemplo_API: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/0_exemplo_APIs.ipynb)
 
 - 1_Treino Simples: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/1_treino_simples.ipynb)
 
-- 2 My Robot: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/2_my_robot.ipynb.ipynb)
+- 2 My Robot: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BernardoAflalo/cripto-simulator-client/blob/main/2_my_robot.ipynb)
 
 
 # Simulador de Trading de Cripto
