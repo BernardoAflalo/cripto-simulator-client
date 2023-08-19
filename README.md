@@ -10,23 +10,17 @@
 # Simulador de Trading de Cripto
 
 Objetivo é criar um robô para fazer 'trade' de cripto moedas em um ambiente 100% simulado. Características do simulador:
-- Apenas 3 cripto disponíveis: BTCUSDT, ETHUSDT e DOGEUSDT
+- Apenas 1 cripto disponível: BTC
 - Cada grupo/ pessoa recebe o equivalente a USD 10k em $$ virtual
 - Não há incidência de nenhuma taxa por transação
-- Apesar de todo o ambiente ser simulado (carteira, dinheiro etc), as cotações são reais, pois o servidor acessa uma API em tempo real
+- Apesar de todo o ambiente ser simulado (carteira, dinheiro etc), as cotações são reais, mas defasadas em alguns dias
 - O trabalho pode ser realizado em qualquer linguagem
 
 ## Tokens
 
-Para testes, usar o token = 'token_dummy_001' (conforme notebook exemplo). Para o projeto final, o aluno deve cadastrar o próprio robô no site https://cripto-dash.herokuapp.com/ preenchendo:
-- Nome: nome do aluno, no caso de trabalho individuais ou provas substitutivas. No caso de trabalho em grupo, o nome do grupo
-- Descrição do bot (opcional)
-- Imagem do robô (opcional)
-- Escolha de onde você é (qual curso/ empresa)
+Para testes, usar o token = 'token_dummy_001' (conforme notebook exemplo).
 
-Na sequência, clicar em "Gerar Token" e copiar o token que aparecerá na tela! Ele será necessário para as chamadas de API.
-
-Em caso de qualquer problema, favor entrar em contato!
+Cada grupo receberá o token oficial que devem utilizar para comprar e vender cripto.
 
 ## Notebooks
 
@@ -64,16 +58,11 @@ Exemplo simples de robô utilizando o 'pickle' gerado anteriormente. A lógica i
 6. Se a tendência for positiva e acima de um limite, reajusta quantidade comprada pela quantidade de $$ em conta e realiza a compra. Se for negativa, realiza a venda de maneira similar, conferindo qual a posição atual do ativo
 7. Retorna o status da carteira e espera 60 segundos para a próxima iteração
 
-### 3_api_robot.ipynb
-
-Exemplo de como transformar em API Flask um robô. Se o seu objetivo é criar uma API do robô para operar na plataforma Trei dimais, é importante ter a rota wakeup, que chama a função principal que realiza as operações.
-
-Sugestão é subir em uma plataforma como a Heroku (https://www.heroku.com/). Para um exemplo de como isso pode ser feito, ver https://github.com/BernardoAflalo/asn1-robo-cryptoRocks.
 
 ## Download do histórico
 
 Para realizar o treinamento dos modelos, o histórico das cripto moedas, minuto a minuto, estão disponíveis em:
 
 - BTC: https://drive.google.com/u/0/uc?id=1K1-mXTk426z8ZvbmWrx8zrbC-C6GxxGg&export=download
-- DOGE: https://drive.google.com/u/0/uc?id=17c2r9qbnsxPVxaYukrp6vhTY-CQy8WZa&export=download
-- ETH: https://drive.google.com/u/0/uc?id=1b2nqwR11tWWZ8B1R3AXUB_iCuu1oELm6&export=download
+
+Atenção: os dados de treinamento estão defasados, pois é uma foto de cotações passadas.
